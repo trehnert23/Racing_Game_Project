@@ -1,1 +1,187 @@
-/* Style Sheet */
+.background {
+	width: 180vh;
+	height: 90vh;
+	border-radius: 20%;
+	background: url('http://i2.wp.com/theultralinx.com/wp-content/uploads/2014/01/cell.gif?resize=500%2C500');
+	border: solid #880000 5px;
+}
+
+body {
+	background-color: grey;
+}
+
+.masked{
+	background: url('http://static.tumblr.com/x7myli5/germ80y7b/marvel_logo_animated_gif.gif') repeat, white;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-animation-name: masked-animation;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	font-size: 100px;
+	font-family: Futura;
+}
+@-webkit-keyframes masked-animation {
+	0% {background-position: right bottom;}
+	50% {background-position: left bottom;}
+	100% {background-position: right bottom;}
+}
+
+
+.players {
+	z-index: 2;
+	position: absolute;
+	width:90vh;
+	height:15vh;
+	background-color: rgba(255, 255, 255, 0);
+	margin-top: 20vh;
+	margin-left: 45vh;
+	border: solid #880000 3px;
+	border-radius: 20px;
+}
+
+.spiderman {
+	z-index: 1;
+	position: absolute;
+	margin-top: 22vh;
+	margin-left: 55vh;
+	text-align: center;
+}
+
+.spidermanText {
+	color: white;
+}
+
+.hulk {
+	z-index: 1;
+	position: absolute;
+	margin-top: 22vh;
+	margin-left: 75vh;
+	text-align: center;
+}
+
+.hulkText {
+	color: white;
+}
+
+.ironMan {
+	z-index: 1;
+	position: absolute;
+	margin-top: 22vh;
+	margin-left: 95vh;
+	text-align: center;
+}
+
+.ironManText {
+	color: white;
+}
+
+.thor {
+	z-index: 1;
+	position: absolute;
+	margin-top: 22vh;
+	margin-left: 115vh;
+	text-align: center;
+}
+
+.thorText {
+	color: white;
+}
+
+.lane {
+	z-index: 1;
+	position: absolute;
+	border-radius: 20px;
+}
+
+.player1 {
+	z-index: 2;
+	position: absolute;
+	margin-top: -9vh;
+	margin-left: 35vh;
+}
+
+.player1Button {
+	z-index: 2;
+	position: absolute;
+	margin-top: -9vh;
+	margin-left: 55vh;
+}
+
+.player2 {
+	z-index: 2;
+	position: absolute;
+	margin-left: 128vh;
+	margin-top: -8.8vh;
+}
+
+.player2Button {
+	z-index: 2;
+	position: absolute;
+	margin-top: -8.8vh;
+	margin-left: 116vh;
+}
+
+.player1Choice {
+	z-index: 1;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 420px;
+}
+
+.player2Choice {
+	z-index: 1;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 535px;
+}
+
+.median {
+	background-color: black;
+	z-index: 1;
+	position: absolute;
+	height: 3px;
+	width: 140vh;
+	margin-top: 505px;
+	margin-left: 160px;
+	opacity: 0.5;
+}
+
+
+
+
+/*http://fanaru.com/spiderman/image/148665-spiderman-characters-spiderman.gif*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
